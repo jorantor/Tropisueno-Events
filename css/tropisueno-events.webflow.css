@@ -262,6 +262,7 @@
   padding: 0 50px 50px;
   display: flex;
   position: relative;
+  overflow: hidden;
 }
 
 .hero {
@@ -847,6 +848,8 @@
 }
 
 .features_wrapper {
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   justify-content: flex-start;
   align-items: center;
   max-width: 1080px;
