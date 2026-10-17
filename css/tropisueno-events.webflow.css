@@ -850,7 +850,7 @@
   justify-content: flex-start;
   align-items: center;
   max-width: 1080px;
-  padding: 0;
+  padding: 25px 15px;
   display: flex;
 }
 
