@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /form-submited.html
 
 Sitemap: https://www.tropisuenoevents.com/sitemap.xml
