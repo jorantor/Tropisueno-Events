@@ -847,12 +847,10 @@
 }
 
 .features_wrapper {
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
   justify-content: flex-start;
   align-items: center;
   max-width: 1080px;
-  padding: 25px 15px;
+  padding: 0;
   display: flex;
 }
 
