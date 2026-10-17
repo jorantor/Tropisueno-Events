@@ -1,3 +1,10 @@
+:root {
+  --pink-mexican: #ff008c;
+  --golden: #d39422;
+  --light-yellow: #d3cba8;
+  --green: #04313d;
+}
+
 .w-layout-blockcontainer {
   max-width: 940px;
   margin-left: auto;
@@ -31,7 +38,7 @@
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   background-color: #1f100157;
-  background-image: url('../images/Entrance_bar.png');
+  background-image: url('../images/Entrance_bar.avif');
   background-position: 0 0;
   background-size: auto;
   justify-content: center;
@@ -64,13 +71,15 @@
 }
 
 .container.hero {
+  z-index: 1;
   opacity: 1;
-  -webkit-backdrop-filter: blur(6px);
-  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
   outline-offset: 0px;
   pointer-events: auto;
   mix-blend-mode: normal;
-  background-color: #0f08005c;
+  background-color: #0f080000;
+  background-image: radial-gradient(circle, #000000c2 24%, #fff0);
   border-radius: 5px;
   outline: 3px #000;
   justify-content: flex-start;
@@ -78,6 +87,7 @@
   height: auto;
   padding-top: 40px;
   padding-bottom: 40px;
+  position: relative;
   box-shadow: 5px 6px 6px 1px #0003;
 }
 
@@ -117,8 +127,8 @@
 }
 
 .nav-link:hover {
+  background-color: var(--pink-mexican);
   color: #fff;
-  background-color: #ff6d18f7;
   border-bottom-style: none;
   border-radius: 5px;
   font-weight: 700;
@@ -240,19 +250,18 @@
 }
 
 .hero_section {
+  box-sizing: border-box;
+  aspect-ratio: auto;
   text-align: center;
-  background-color: #cfacac00;
-  background-image: url('../images/Entrance_bar.png');
-  background-repeat: repeat-y;
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #fff;
   flex-flow: column;
   justify-content: center;
   align-items: center;
   width: 100vw;
   height: 100vh;
-  padding: 50px;
+  padding: 0 50px 50px;
   display: flex;
+  position: relative;
 }
 
 .hero {
@@ -271,7 +280,7 @@
   width: 100%;
   max-width: none;
   height: 100%;
-  padding: 50px 70px;
+  padding: 25px 36px;
   line-height: 75px;
   display: flex;
 }
@@ -283,14 +292,15 @@
 }
 
 .heading-1.white {
-  color: #f7f3e2;
+  color: var(--light-yellow);
   font-family: Merriweather, serif;
-  font-weight: 400;
-  line-height: 83px;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 65px;
 }
 
 .heading-2 {
-  color: #f6ece1;
+  color: #f8f5e7;
   text-align: center;
   flex: 0 auto;
   width: 100%;
@@ -318,18 +328,18 @@
 
 .heading-2.turquoise {
   color: #04313d;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .button {
   color: #f6ece1;
-  background-color: #58022f00;
+  background-color: #ffffff1c;
   border: 2px solid #d6c9d0;
-  border-radius: 5px;
+  border-radius: 30px;
   min-width: 160px;
   margin-top: 20px;
   margin-bottom: 0;
-  padding: 14px;
+  padding: 10px 20px;
   line-height: 20px;
 }
 
@@ -455,7 +465,7 @@
 }
 
 .section-2 {
-  background-image: url('../images/patio_speaker.jpg');
+  background-image: url('../images/patio_speaker.avif');
   background-position: 50%;
   background-repeat: repeat-y;
   background-size: cover;
@@ -477,7 +487,7 @@
 
 .section-4 {
   background-color: #3d0a0a;
-  background-image: url('../images/Mexican-Background.png');
+  background-image: url('../images/Mexican-Background.avif');
   background-position: 0 0;
   background-repeat: repeat-y;
   background-size: cover;
@@ -787,6 +797,7 @@
   margin-top: 1px;
   margin-bottom: 1px;
   padding: 50px;
+  position: relative;
 }
 
 .navbar_container {
@@ -812,7 +823,7 @@
 }
 
 .section-5 {
-  background-color: #ff008c;
+  background-color: var(--pink-mexican);
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -893,7 +904,7 @@
 }
 
 .branded-destination {
-  background-color: #04313d;
+  background-color: var(--green);
   padding: 50px;
 }
 
@@ -929,7 +940,7 @@
 }
 
 .section-6 {
-  background-image: url('../images/Mexican-Background.png');
+  background-image: url('../images/Mexican-Background.avif');
   background-position: 50% 0;
   background-size: cover;
 }
@@ -945,7 +956,7 @@
 
 .section-7 {
   background-color: #f6ece1;
-  background-image: url('../images/20250430_120606_Original.jpg');
+  background-image: url('../images/tropisueno-covered-patio-private-events-san-francisco_1.avif');
   background-position: 50%;
   background-repeat: repeat-y;
   background-size: cover;
@@ -969,7 +980,7 @@
 }
 
 .image_wrapper {
-  background-image: url('../images/patio_speaker.jpg');
+  background-image: url('../images/patio_speaker.avif');
   background-position: 0%;
   background-repeat: repeat-y;
   background-size: cover;
@@ -979,31 +990,31 @@
 }
 
 .image_wrapper._2 {
-  background-image: url('../images/Entrance_bar.png');
+  background-image: url('../images/Entrance_bar.avif');
   background-position: 100% 0;
   background-size: cover;
 }
 
 .image_wrapper._3 {
-  background-image: url('../images/Patio-set-up-taco-bar.JPG');
+  background-image: url('../images/tropisueno-outdoor-lounge-seating-private-events.avif');
   background-position: 0%;
   background-size: cover;
 }
 
 .image_wrapper._4 {
-  background-image: url('../images/tropi-indoors.jpg');
+  background-image: url('../images/tropi-indoors.avif');
   background-position: 0 0;
   background-size: cover;
 }
 
 .image_wrapper._5 {
-  background-image: url('../images/branding_ybl.jpg');
+  background-image: url('../images/branding_ybl.avif');
   background-position: 100%;
   background-size: cover;
 }
 
 .image_wrapper._6 {
-  background-image: url('../images/IMG_0605~3.jpg');
+  background-image: url('../images/tropisueno-covered-patio-private-events-san-francisco.avif');
 }
 
 .venue-capabilities-black {
@@ -1023,7 +1034,7 @@
   height: 60px;
 }
 
-.image-8 {
+.venue-featture-icon {
   max-width: none;
   height: 100%;
   display: block;
@@ -1105,14 +1116,14 @@
 }
 
 .gallery-9 {
-  background-image: url('../images/Breakfast.jpg');
+  background-image: url('../images/tropisueno-fruit-churros-dessert-buffet.avif');
   background-position: 50% 100%;
   background-size: cover;
   width: 50%;
 }
 
 .gallery_1 {
-  background-image: url('../images/IMG_0623_Original.jpg');
+  background-image: url('../images/IMG_0623_Original.avif');
   background-position: 50%;
   background-size: cover;
   width: 50%;
@@ -1120,14 +1131,14 @@
 }
 
 .gallery_2 {
-  background-image: url('../images/Tropi_indor_3.jpg');
+  background-image: url('../images/tropisueno-indoor-restaurant-seating-private-events.avif');
   background-position: 50% 70%;
   background-size: cover;
   width: 50%;
 }
 
 .gallery_3 {
-  background-image: url('../images/Tropi_bar.jpg');
+  background-image: url('../images/tropisueno-margaritas-cocktail-bar-san-francisco.avif');
   background-position: 50% 20%;
   background-repeat: repeat-y;
   background-size: cover;
@@ -1135,7 +1146,7 @@
 }
 
 .gallery_4 {
-  background-image: url('../images/IMG_0605~3.jpg');
+  background-image: url('../images/tropisueno-covered-patio-private-events-san-francisco.avif');
   background-position: 100% 100%;
   background-size: cover;
   width: 50%;
@@ -1148,7 +1159,7 @@
 }
 
 .gallery_5 {
-  background-image: url('../images/Patio-set-up-taco-bar.JPG');
+  background-image: url('../images/tropisueno-outdoor-lounge-seating-private-events.avif');
   background-position: 0 0;
   background-size: cover;
   width: 100%;
@@ -1307,21 +1318,21 @@
 }
 
 .gallery-6 {
-  background-image: url('../images/Chef_Tropi.jpg');
+  background-image: url('../images/tropisueno-guacamole-station-private-events.avif');
   background-position: 50% 30%;
   background-size: cover;
   width: 50%;
 }
 
 .gallery_7 {
-  background-image: url('../images/community_tropi.jpg');
+  background-image: url('../images/ropisueno-communal-dining-table-private-events.avif');
   background-position: 50%;
   background-size: cover;
   width: 50%;
 }
 
 .gallery_8 {
-  background-image: url('../images/Dj-party.jpg');
+  background-image: url('../images/tropisueno-corporate-event-dj-brand-activation-san-francisco.avif');
   background-position: 50%;
   background-size: cover;
   width: 50%;
@@ -1329,7 +1340,7 @@
 }
 
 .gallery_11 {
-  background-image: url('../images/Chef_Tropi.jpg');
+  background-image: url('../images/tropisueno-guacamole-station-private-events.avif');
   background-position: 50% 30%;
   background-size: cover;
   width: 50%;
@@ -1337,14 +1348,14 @@
 }
 
 .gallery_12 {
-  background-image: url('../images/Dj-party.jpg');
+  background-image: url('../images/tropisueno-corporate-event-dj-brand-activation-san-francisco.avif');
   background-position: 50%;
   background-size: cover;
   width: 50%;
 }
 
 .gallery-10 {
-  background-image: url('../images/20250430_120606_Original.jpg');
+  background-image: url('../images/tropisueno-covered-patio-private-events-san-francisco_1.avif');
   background-position: 50% 60%;
   background-size: cover;
   width: 50%;
@@ -1357,7 +1368,7 @@
 }
 
 .hero_subline {
-  color: #fce4e4;
+  color: var(--light-yellow);
   text-align: center;
   font-size: 20px;
   font-weight: 300;
@@ -1367,7 +1378,7 @@
 .text-span-6 {
   opacity: 1;
   outline-offset: 0px;
-  color: #d39422;
+  color: var(--golden);
   border: 1px #000;
   outline: 3px #d39422;
 }
@@ -1382,6 +1393,7 @@
 }
 
 .container-full-buyout {
+  z-index: 1;
   flex-flow: column;
   justify-content: flex-start;
   align-items: center;
@@ -1389,10 +1401,11 @@
   padding-top: 10px;
   padding-bottom: 10px;
   display: flex;
+  position: relative;
 }
 
 .gallery-13 {
-  background-image: url('../images/furniture-setup.jpg');
+  background-image: url('../images/tropisueno-outdoor-lounge-seating-private-events.jpg');
   background-position: 50% 65%;
   background-size: cover;
   width: 50%;
@@ -1400,21 +1413,21 @@
 }
 
 .gallery_14 {
-  background-image: url('../images/Bar_island_tropi.jpg');
+  background-image: url('../images/tropisueno-beverage-station-private-events.avif');
   background-position: 100% 100%;
   background-size: cover;
   width: 50%;
 }
 
 .gallery_15 {
-  background-image: url('../images/Breakfast.jpg');
+  background-image: url('../images/tropisueno-fruit-churros-dessert-buffet.avif');
   background-position: 50%;
   background-size: cover;
   width: 50%;
 }
 
 .gallery_16 {
-  background-image: url('../images/20250430_120606_Original.jpg');
+  background-image: url('../images/tropisueno-covered-patio-private-events-san-francisco_1.avif');
   background-position: 50%;
   background-repeat: repeat-y;
   background-size: cover;
@@ -1438,7 +1451,7 @@
 }
 
 .div-block-35 {
-  background-image: url('../images/Tropi_outer_branding_space.jpg');
+  background-image: url('../images/tropisueno-outdoor-event-space-brand-activation-san-francisco.avif');
   background-position: 50% 0;
   background-repeat: repeat-y;
   background-size: cover;
@@ -1453,7 +1466,7 @@
 .div-block-36 {
   grid-column-gap: 17px;
   grid-row-gap: 17px;
-  background-image: url('../images/branding_ybl.jpg');
+  background-image: url('../images/branding_ybl.avif');
   background-position: 0 0;
   background-repeat: repeat-y;
   background-size: cover;
@@ -1498,16 +1511,17 @@
 }
 
 .byo_label {
-  color: #04313d;
+  color: var(--green);
   text-align: center;
-  font-size: 12px;
+  -webkit-text-stroke-color: #0b3942;
+  font-size: 14px;
   font-weight: 700;
 }
 
 .byo_card {
   grid-column-gap: 18px;
   grid-row-gap: 18px;
-  background-color: #a35c0a1c;
+  background-color: #eeddcb;
   border: 1px #d39422;
   border-radius: 5px;
   flex-flow: row;
@@ -1578,8 +1592,8 @@
 }
 
 .event-packages {
-  background-image: url('../images/Dj-party.jpg');
-  background-position: 50% 0;
+  background-image: url('../images/tropisueno-corporate-event-dj-brand-activation-san-francisco.avif');
+  background-position: 50% 15%;
   background-size: cover;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -1634,8 +1648,9 @@
   color: #04313d;
   background-color: #ffffff2b;
   border: 1px solid #04313d;
-  border-radius: 5px;
+  border-radius: 20px;
   margin-top: 10px;
+  padding: 10px 20px;
 }
 
 .button-2:hover {
@@ -1646,12 +1661,13 @@
 .button-3 {
   background-color: #ffffff14;
   border: 1px solid #fff;
-  border-radius: 5px;
+  border-radius: 20px;
   margin-top: 10px;
+  padding: 10px 20px;
 }
 
 .button-3:hover {
-  color: #ff008c;
+  color: var(--pink-mexican);
   background-color: #f6ece1;
 }
 
@@ -1743,10 +1759,12 @@
   color: #04313d;
   background-color: #3898ec00;
   border: 1px solid #04313d;
-  border-radius: 5px;
+  border-radius: 20px;
+  padding: 10px 20px;
 }
 
 .button-4:hover {
+  border-color: var(--golden);
   color: #fff;
   background-color: #04313d;
 }
@@ -1768,10 +1786,11 @@
 }
 
 .button-5 {
-  color: #fff;
+  border: 1px solid var(--golden);
+  color: var(--golden);
   background-color: #fff0;
-  border: 1px solid #fff;
-  border-radius: 5px;
+  border-radius: 20px;
+  padding: 10px 20px;
 }
 
 .button-5:hover {
@@ -1844,6 +1863,66 @@
   width: 50%;
 }
 
+.content-text-span {
+  color: var(--golden);
+}
+
+.content-text-span:hover {
+  color: var(--pink-mexican);
+}
+
+.text-span-8, .text-span-9, .header-text-span {
+  color: var(--golden);
+}
+
+.header-text-span:hover {
+  color: var(--pink-mexican);
+}
+
+.cta-button {
+  background-color: var(--golden);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.cta-button:hover {
+  background-color: var(--pink-mexican);
+}
+
+.form-quote {
+  color: var(--light-yellow);
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.hero-image {
+  z-index: 0;
+  object-fit: cover;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  position: absolute;
+  inset: 0 auto auto 0;
+  overflow: visible;
+}
+
+.image-19 {
+  z-index: 0;
+  max-width: none;
+  height: 200px;
+  position: absolute;
+  inset: 0% 0% auto auto;
+}
+
+.text-span-10 {
+  color: var(--golden);
+}
+
 @media screen and (max-width: 991px) {
   .container {
     max-width: 728px;
@@ -1879,7 +1958,8 @@
   }
 
   .menu-button {
-    background-color: #5a0303;
+    background-color: var(--golden);
+    border-radius: 100%;
     padding: 12px;
   }
 
@@ -2088,6 +2168,10 @@
     justify-content: center;
     align-items: center;
   }
+
+  .image-19 {
+    height: 100px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2097,11 +2181,18 @@
     padding-right: 10px;
   }
 
+  .container.hero {
+    background-color: #0f08002b;
+  }
+
   .nav-menu-two {
     flex-direction: column;
   }
 
   .hero_section {
+    justify-content: center;
+    align-items: center;
+    height: auto;
     padding-left: 0;
     padding-right: 0;
   }
