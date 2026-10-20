@@ -43,3 +43,42 @@
 @media(max-width:991px){.prix-grid,.buyouts-menu-grid,.buyouts-taco-layout,.buyouts-openbar-grid{grid-template-columns:1fr}.drink-grid{grid-template-columns:1fr}}
 @media(max-width:767px){.prix-section,.prix-drinks,.prix-gallery,.buyouts-section{padding:50px 18px}.prix-h2,.buyouts-heading-dark{font-size:32px}.prix-cardtop,.buyouts-card-top{display:block}.buyouts-taco-grid,.buyouts-drink-top,.buyouts-columns,.food-layout{grid-template-columns:1fr}.food-image{height:220px}.buyouts-openbar-card{grid-template-columns:1fr}}
 @media(max-width:479px){.prix-section,.prix-drinks,.prix-gallery,.buyouts-section{padding:42px 14px}.prix-card,.drink-card{padding:20px}.buyouts-card{padding:20px}.buyouts-openbar-card{padding:16px}.food-wrapper{grid-template-columns:1fr}}
+
+
+/* 2026-10-20 Webflow BUYOUTS sync */
+.buyouts-event-menus{padding-top:50px;padding-bottom:50px;color:#f6ece1;background-color:transparent}
+.buyouts-event-menus.event-packages{background-position:50% 15%;background-size:cover}
+.buyouts-event-menus .event-menu-packages-container.buyouts-container{display:flex;max-width:1080px;padding:25px 39px;flex-direction:column;border-radius:5px;background-color:rgba(0,0,0,.28);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px)}
+.buyouts-event-menus .heading-2,.buyouts-drinks-section .heading-2{margin-top:0;color:#f6ece1;text-align:center}
+.buyouts-event-menus .buyouts-eyebrow{color:#f6ece1}
+.buyouts-label{display:inline-block;margin:4px 0 14px;padding:7px 12px;border-radius:999px;background-color:#d73b2f;color:#fff;font-size:12px;line-height:1.1;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+.buyouts-taco-item{padding:18px;border:1px solid rgba(4,49,61,.10);border-radius:8px;background:#fff}
+.taco-bar-card-option{display:flex;justify-content:flex-start;align-items:center;gap:16px}
+.taco-bar-media{width:100px;height:100px;flex:0 0 100px}
+.image-20{display:block;width:100%;height:100%;max-width:none;border-radius:5px;object-fit:cover}
+.taco-bar-caption{display:flex;min-width:0;flex:1 1 0%;flex-direction:column;justify-content:center;align-items:flex-start}
+.buyouts-taco-title{font-size:18px;line-height:1.25;font-weight:700}
+.buyouts-taco-copy{margin:8px 0 0;font-size:13px;line-height:1.55;color:#52656a}
+.buyouts-compliments{padding:28px}
+.buyouts-compliments .buyouts-label{margin-top:0}
+.buyouts-compliment-title{margin:18px 0 5px;color:#f6ece1;font-size:18px;line-height:1.3}
+.buyouts-compliment-copy{margin:0;color:#f6ece1}
+.buyouts-drink-top{grid-template-columns:.8fr 1.2fr;margin-bottom:28px}
+.buyouts-openbar-card{grid-template-columns:140px 1fr;align-items:start}
+.buyouts-openbar-name{padding:12px;border-radius:4px;background-color:#d73b2f;color:#fff;font-weight:700;text-align:center}
+.buyouts-openbar-content{font-size:18px}
+.buyouts-note{margin-top:24px;padding:18px;border:1px solid rgba(246,236,225,.35);border-radius:8px}
+.buyouts-note .buyouts-list-light{margin-bottom:0}
+@media(max-width:991px){
+  .buyouts-event-menus .event-menu-packages-container.buyouts-container{width:90%;padding-left:30px;padding-right:30px}
+}
+@media(max-width:767px){
+  .buyouts-event-menus .event-menu-packages-container.buyouts-container{width:auto;padding:25px 20px}
+  .taco-bar-card-option{align-items:flex-start}
+  .taco-bar-media{width:86px;height:86px;flex-basis:86px}
+  .buyouts-openbar-card{grid-template-columns:1fr}
+}
+@media(max-width:479px){
+  .taco-bar-card-option{gap:12px}
+  .taco-bar-media{width:76px;height:76px;flex-basis:76px}
+}
