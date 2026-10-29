@@ -151,3 +151,32 @@
  .buyouts-openbar-card{padding:16px}
  .buyouts-event-menus .heading-2,.buyouts-drinks-section .heading-2{font-size:20px;line-height:30px}
 }
+
+
+/* Prix fixe updates synced with Webflow — scoped to this page. */
+.prix-page .prix-card,.prix-page .drink-card{padding:26px;background:#f6ece1;border-top:0;box-shadow:none;color:#04313d}
+.prix-page .prix-cardtop{padding-bottom:10px;border-bottom:1px solid rgba(4,49,61,.22);align-items:center}
+.prix-page .vegan-section{background:#fff;color:#04313d}
+.prix-page .vegan-heading{max-width:980px}
+.prix-page .vegan-section .eyebrow{font-family:Arial,sans-serif;font-size:14px;letter-spacing:3px;text-transform:uppercase;margin-bottom:12px}
+.prix-page .vegan-title{font-size:44px;font-weight:400}
+.prix-page .vegan-card-row{display:flex;gap:24px;align-items:stretch;margin-top:36px}
+.prix-page .vegan-card{flex:1 1 0;min-width:0;padding:30px 32px;border:1px solid #d8c2ab;border-radius:10px;background:#f8f0e6}
+.prix-page .vegan-card-title{font-size:25px;font-weight:400;line-height:1.25;margin:10px 0 14px;color:#04313d}
+.prix-page .vegan-rule{height:1px;background:rgba(4,49,61,.27);margin-bottom:18px}
+.prix-page .vegan-card-copy{font-size:16px;line-height:1.6;margin:0 0 16px}
+.prix-page .vegan-list{padding-left:23px;margin:0;display:flex;flex-direction:column;gap:12px;font-size:16px;line-height:1.5}
+.prix-page .vegan-list li::marker{color:#b87722}
+.prix-page .vegan-feature{display:flex;justify-content:center;align-items:center;gap:28px;margin-top:24px;padding:22px 32px;border-radius:9px;background:#04313d}
+.prix-page .vegan-feature-symbol{flex:0 0 auto;color:#b87722;font-size:58px;line-height:1;padding-right:26px;border-right:1px solid #cdb59c}
+.prix-page .vegan-feature-text{max-width:750px}
+.prix-page .vegan-feature-title{font-size:25px;margin:0 0 5px}
+.prix-page .vegan-feature-copy{font-size:16px;line-height:1.6;margin:0}
+.prix-page .vegan-feature .white-txt{color:#fff}
+.prix-page .vegan-bottom{display:flex;align-items:center;gap:12px;margin-top:25px;color:#b87722}
+.prix-page .vegan-bottom-rule{flex:1;height:1px;background:#cda67b}
+.prix-page .vegan-bottom-symbol{font-size:24px}
+.prix-page .vegan-footer{text-align:center;margin:10px 0 0;font-size:16px;line-height:1.6}
+@media(max-width:991px){.prix-page .vegan-card-row{gap:16px}.prix-page .vegan-card{padding:22px}.prix-page .vegan-card-title{font-size:22px}}
+@media(max-width:767px){.prix-page .vegan-card-row{flex-direction:column}.prix-page .vegan-card{width:100%}.prix-page .vegan-title{font-size:34px}.prix-page .vegan-feature{gap:14px;padding:20px 18px}.prix-page .vegan-feature-symbol{font-size:40px;padding-right:15px}.prix-page .prix-cardtop{display:block}}
+@media(max-width:479px){.prix-page .vegan-title{font-size:29px}.prix-page .vegan-card{padding:20px 18px}.prix-page .vegan-feature{flex-direction:column;align-items:center;text-align:center}.prix-page .vegan-feature-symbol{padding-right:0;border-right:0}}
