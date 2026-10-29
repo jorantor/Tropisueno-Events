@@ -217,3 +217,93 @@
 .prix-page .drink-card .prix-fees{margin:7px 0 22px;color:#666;font-size:12px;font-style:italic}
 @media(max-width:767px){.prix-page .drink-card .prix-cardtop{display:flex;align-items:center;justify-content:space-between;gap:12px}.prix-page .drink-card .drink-price{align-items:flex-end}}
 @media(max-width:420px){.prix-page .drink-card .prix-cardtop{flex-wrap:wrap}}
+
+/* WEBFLOW PRIX FIXE EXACT STYLE SNAPSHOT - scoped, generated from Designer classes */
+.prix-page .vegan-rule{height:1px;margin-bottom:18px;background-color:rgba(4,49,61,.27)}
+.prix-page .food-image{width:100%;height:100%;max-width:none;border-top-left-radius:5px;border-top-right-radius:5px;border-bottom-left-radius:5px;border-bottom-right-radius:5px;object-fit:cover}
+.prix-page .vegan-feature-title.white-txt{color:#fff}
+.prix-page .vegan-card-copy{margin-bottom:16px;color:#04313d;font-size:16px;line-height:1.6}
+.prix-page .prix-fees{margin-top:7px;margin-bottom:22px;color:#666;font-size:12px;font-style:italic;margin-right:0;margin-left:0}
+.prix-page .vegan-list{display:flex;padding-left:23px;flex-direction:column;column-gap:12px;row-gap:12px;font-size:16px;line-height:1.5;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0}
+.prix-page .card-subhead{margin-top:20px;margin-bottom:8px;color:#d73b2f;font-size:17px;margin-right:0;margin-left:0}
+.prix-page .prix-h2.prix-light{color:#04313d}
+.prix-page .vegan-feature{display:flex;margin-top:24px;padding-top:22px;padding-right:32px;padding-bottom:22px;padding-left:32px;justify-content:center;align-items:center;column-gap:28px;row-gap:28px;border-top-left-radius:9px;border-top-right-radius:9px;border-bottom-left-radius:9px;border-bottom-right-radius:9px;background-color:#04313d}
+.prix-page .menu-list{padding-left:20px;font-size:14px;line-height:1.55;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0}
+.prix-page .prix-sub.prix-light{color:#04313d}
+.prix-page .vegan-feature-symbol{padding-right:26px;border-right-style:solid;border-right-width:1px;border-right-color:#cdb59c;color:#b87722;font-size:58px;line-height:1}
+.prix-page .prix-section{padding-top:75px;padding-right:24px;padding-bottom:50px;padding-left:24px}
+.prix-page .menu-copy{font-size:14px;line-height:1.55}
+.prix-page .vegan-feature-text{max-width:750px}
+.prix-page .prix-drinks{padding-top:75px;padding-right:24px;padding-bottom:75px;padding-left:24px;background-color:rgba(0, 0, 0, 0)}
+.prix-page .prix-gallery{padding-top:0px;padding-right:24px;padding-bottom:75px;padding-left:24px;background-color:#f6ece1}
+.prix-page .vegan-feature-title{margin-bottom:5px;color:#04313d;font-size:25px;margin-top:0;margin-right:0;margin-left:0}
+.prix-page .prix-light{color:#f6ece1}
+.prix-page .vegan-feature-copy{font-size:16px;line-height:1.6;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0}
+.prix-page .prix-heading{max-width:760px;margin-right:auto;margin-bottom:40px;margin-left:auto;text-align:center;margin-top:0}
+.prix-page .vegan-bottom{display:flex;margin-top:25px;align-items:center;column-gap:12px;row-gap:12px;color:#b87722}
+.prix-page .food-picture-wrapper{width:50%;height:300px}
+.prix-page .food-layout{display:flex;width:100%;justify-content:space-between;align-items:center;column-gap:11px;row-gap:11px}
+.prix-page .prix-h2{margin-bottom:12px;font-size:40px;line-height:1.2;font-weight:300;margin-top:0;margin-right:0;margin-left:0}
+.prix-page .vegan-section{background-color:#f8f0e6;color:#04313d}
+.prix-page .vegan-bottom-rule{height:1px;flex-grow:1;flex-shrink:1;flex-basis:0%;background-color:#cda67b}
+.prix-page .prix-sub{font-size:17px;line-height:1.65;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0}
+.prix-page .vegan-heading{max-width:980px}
+.prix-page .vegan-feature-copy.white-txt{color:#fff}
+.prix-page .eyebrow{margin-bottom:0px;font-family:Arial;color:#d39422;font-size:14px;font-weight:400;letter-spacing:3px;text-transform:uppercase;margin-top:0;margin-right:0;margin-left:0}
+.prix-page .prix-grid{display:grid;column-gap:22px;row-gap:22px;grid-template-columns:1fr 1fr;grid-template-rows:auto}
+.prix-page .drink-grid{display:grid;column-gap:20px;row-gap:20px;grid-template-rows:auto;grid-template-columns:repeat(3,1fr)}
+.prix-page .prix-card{padding-top:26px;padding-right:26px;padding-bottom:26px;padding-left:26px;border-top-style:solid;border-top-width:0px;border-top-color:#d73b2f;border-top-left-radius:8px;border-top-right-radius:8px;border-bottom-left-radius:8px;border-bottom-right-radius:8px;background-color:#fff;box-shadow:none;color:#04313d}
+.prix-page .food-wrapper{display:flex;width:50%;column-gap:10px;row-gap:10px}
+.prix-page .vegan-bottom-symbol{font-size:24px}
+.prix-page .food-gallery{display:flex;justify-content:flex-start;align-items:center}
+.prix-page .vegan-footer{margin-top:10px;font-size:16px;line-height:1.6;text-align:center;margin-right:0;margin-bottom:0;margin-left:0}
+.prix-page .drink-card{padding-top:26px;padding-right:26px;padding-bottom:26px;padding-left:26px;border-top-left-radius:8px;border-top-right-radius:8px;border-bottom-left-radius:8px;border-bottom-right-radius:8px;background-color:#fff;box-shadow:none;color:#04313d}
+.prix-page .vegan-title{font-size:44px;font-weight:400}
+.prix-page .prix-section.vegan-section{background-color:hsla(31.428571428571463, 0.00%, 100.00%, 1.00)}
+.prix-page .prix-cardtop{display:flex;padding-bottom:10px;justify-content:space-between;align-items:center;column-gap:18px;row-gap:18px;border-bottom-style:solid;border-bottom-width:1px;border-bottom-color:rgba(4,49,61,.22)}
+.prix-page .drink-title{margin-top:8px;margin-bottom:14px;font-size:23px;margin-right:0;margin-left:0}
+.prix-page .vegan-card-row{display:flex;margin-top:36px;align-items:stretch;column-gap:24px;row-gap:24px}
+.prix-page .prix-label{color:#d73b2f;font-size:11px;font-weight:700;letter-spacing:1.7px}
+.prix-page .drink-copy{font-size:14px;line-height:1.65}
+.prix-page .vegan-card{padding-top:30px;padding-right:32px;padding-bottom:30px;padding-left:32px;flex-grow:1;flex-shrink:1;flex-basis:0%;border-top-style:solid;border-top-width:1px;border-top-color:#d8c2ab;border-right-style:solid;border-right-width:1px;border-right-color:#d8c2ab;border-bottom-style:solid;border-bottom-width:1px;border-bottom-color:#d8c2ab;border-left-style:solid;border-left-width:1px;border-left-color:#d8c2ab;border-top-left-radius:10px;border-top-right-radius:10px;border-bottom-left-radius:10px;border-bottom-right-radius:10px;background-color:#f6ece1;min-width:0}
+.prix-page{background-color:#f6ece1;font-family:Merriweather;color:#04313d}
+.prix-page .prix-title{margin-top:5px;font-size:24px;margin-right:0;margin-bottom:0;margin-left:0}
+.prix-page .drink-price{display:flex;margin-top:8px;margin-bottom:14px;flex-direction:column;justify-content:center;flex-wrap:nowrap;align-items:flex-end;color:#d73b2f;font-size:30px;font-weight:700;margin-right:0;margin-left:0}
+.prix-page .prix-wrap{width:90%;max-width:none;margin-right:auto;margin-left:auto;margin-top:0;margin-bottom:0}
+.prix-page .prix-price{color:#d73b2f;font-size:27px;font-weight:700;white-space:nowrap}
+.prix-page .drink-callout{color:#d73b2f;font-size:14px;line-height:1.65;font-weight:700}
+.prix-page .food-image.food-picture-three{object-position:50% 50%}
+.prix-page .vegan-card-title{margin-top:10px;margin-bottom:14px;color:#04313d;font-size:25px;line-height:1.25;font-weight:400;margin-right:0;margin-left:0}
+.prix-page .price-small{display:block;color:#04313d;font-size:11px;font-weight:400;text-align:right}
+.prix-page .drink-note{margin-top:25px;padding-top:18px;padding-right:24px;padding-bottom:18px;padding-left:24px;border-top-left-radius:6px;border-top-right-radius:6px;border-bottom-left-radius:6px;border-bottom-right-radius:6px;background-color:#04313d;color:#f6ece1;font-size:13px;line-height:1.6;text-align:center}
+.prix-page .prix-kicker{margin-bottom:12px;color:#e6b55a;font-size:12px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase}
+.prix-page .left-small{text-align:left}
+.prix-page .prix-red{color:#d73b2f}
+.prix-page .food-image.food-picture-one{object-position:50% 50%}
+@media(max-width:991px){
+.prix-page .food-layout{flex-direction:column;flex-wrap:nowrap}
+.prix-page .prix-grid{grid-template-columns:1fr}
+.prix-page .drink-grid{grid-template-columns:1fr}
+.prix-page .food-wrapper{width:100%}
+.prix-page .vegan-card-row{gap:16px}
+.prix-page .vegan-card{padding-top:22px;padding-right:22px;padding-bottom:22px;padding-left:22px}
+.prix-page .vegan-card-title{font-size:22px}
+}
+@media(max-width:767px){
+.prix-page .vegan-feature{padding-top:20px;padding-right:18px;padding-bottom:20px;padding-left:18px;gap:14px}
+.prix-page .vegan-feature-symbol{padding-right:15px;font-size:40px}
+.prix-page .prix-h2{font-size:32px}
+.prix-page .vegan-title{font-size:34px}
+.prix-page .prix-cardtop{display:block}
+.prix-page .vegan-card-row{flex-direction:column;gap:16px}
+.prix-page .vegan-card{width:100%}
+}
+@media(max-width:479px){
+.prix-page .vegan-feature{flex-direction:column;justify-content:center;align-items:center}
+.prix-page .vegan-feature-symbol{padding-right:0px;border-right-style:none}
+.prix-page .food-picture-wrapper{width:100%}
+.prix-page .vegan-feature-copy.white-txt{text-align:center}
+.prix-page .food-wrapper{flex-direction:column;flex-wrap:nowrap}
+.prix-page .vegan-title{font-size:29px}
+.prix-page .vegan-card{padding-top:20px;padding-right:18px;padding-bottom:20px;padding-left:18px}
+}
