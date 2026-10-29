@@ -87,6 +87,28 @@
   ]
 }
 </script>
+<style>
+/* Venue gallery synced from Webflow; scoped to this section only. */
+.section-venue-areas{padding:60px 24px 70px;background:#fff;box-sizing:border-box}
+.section-venue-areas *{box-sizing:border-box}
+.section-venue-areas .venue-gallery-intro{max-width:900px;margin:0 auto 34px;text-align:center}
+.section-venue-areas .venue-gallery-eyebrow{display:flex;align-items:center;justify-content:center;gap:23px;margin-bottom:14px;font-size:13px;letter-spacing:4px;color:#a65a27;font-weight:600}
+.section-venue-areas .venue-gallery-eyebrow span{display:block;width:55px;height:1px;background:#bb713d}
+.section-venue-areas .venue-gallery-intro h2{margin:0 0 16px;font-family:Georgia,serif;font-size:clamp(34px,5vw,62px);font-weight:400;line-height:1.12;color:#153c3b}
+.section-venue-areas .venue-gallery-intro p{margin:0 auto;max-width:790px;color:#46413e;font-size:clamp(15px,1.45vw,19px);line-height:1.6}
+.section-venue-areas .venue-gallery-layout{display:flex;align-items:stretch;gap:16px;width:100%;max-width:1440px;margin:0 auto}
+.section-venue-areas .venue-gallery-layout>.venue-gallery-card{flex:1 1 50%;min-width:0}
+.section-venue-areas .venue-gallery-right{flex:1 1 50%;min-width:0;display:flex;flex-wrap:wrap;gap:16px}
+.section-venue-areas .venue-gallery-right>.venue-gallery-card{flex:1 1 calc(50% - 8px);width:calc(50% - 8px);min-width:0;aspect-ratio:1/1}
+.section-venue-areas .venue-gallery-card{position:relative;overflow:hidden;border-radius:6px;isolation:isolate;background:#d5c3ae;min-height:0}
+.section-venue-areas .venue-gallery-card>img{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.section-venue-areas .venue-gallery-overlay{position:absolute;z-index:1;inset:auto 0 0;padding:56px 18px 16px;color:#fff;background:linear-gradient(to top,rgba(13,12,10,.88),rgba(13,12,10,.38) 55%,transparent);pointer-events:none}
+.section-venue-areas .venue-gallery-overlay h3{font-family:Georgia,serif;font-size:clamp(18px,2vw,27px);font-weight:400;line-height:1.2;color:#fff;margin:0 0 4px}
+.section-venue-areas .venue-gallery-overlay p{color:#f9eee2;font-size:clamp(12px,1vw,14px);line-height:1.35;margin:0}
+@media(max-width:900px){.section-venue-areas{padding:45px 18px 55px}.section-venue-areas .venue-gallery-layout{gap:12px}.section-venue-areas .venue-gallery-right{gap:12px}.section-venue-areas .venue-gallery-right>.venue-gallery-card{flex-basis:calc(50% - 6px);width:calc(50% - 6px)}.section-venue-areas .venue-gallery-overlay{padding:42px 12px 12px}}
+@media(max-width:650px){.section-venue-areas{padding:42px 14px 50px}.section-venue-areas .venue-gallery-layout{flex-direction:column}.section-venue-areas .venue-gallery-layout>.venue-gallery-card{flex:none;width:100%;aspect-ratio:4/5}.section-venue-areas .venue-gallery-right>.venue-gallery-card{aspect-ratio:4/5}.section-venue-areas .venue-gallery-intro{margin-bottom:24px}.section-venue-areas .venue-gallery-eyebrow{font-size:11px;letter-spacing:2.5px}.section-venue-areas .venue-gallery-eyebrow span{width:30px}}
+@media(max-width:380px){.section-venue-areas .venue-gallery-right>.venue-gallery-card{flex-basis:100%;width:100%;aspect-ratio:4/3}}
+</style>
 </head>
 <body class="body">
   <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-logo-left-container shadow-three w-nav">
@@ -173,22 +195,6 @@
       </div>
     </div>
   </section>
-  <section id="gallery" class="section-8">
-    <div class="gallery-wrapper">
-      <div class="gallery_section">
-        <div class="div-block-19">
-          <div class="gallery_1"></div>
-          <div class="gallery_3"></div>
-        </div>
-      </div>
-      <div class="gallery_section">
-        <div class="div-block-19">
-          <div class="gallery_2"></div>
-          <div class="gallery_4"></div>
-        </div>
-      </div>
-    </div>
-  </section>
   <section id="event_types" class="event_types">
     <div class="w-layout-blockcontainer container-2 w-container">
       <div class="div-block-17">
@@ -233,24 +239,19 @@
   <div class="div-block-33">
     <h3 class="heading-5">This place could be yours... </h3>
   </div>
-  <section id="gallery-2" class="section-8">
-    <div class="gallery-wrapper">
-      <div class="gallery_section">
-        <div class="div-block-19">
-          <div class="gallery_item">
-            <div class="gallery_5"></div>
-          </div>
-          <div class="gallery-6"></div>
-        </div>
-        <div class="div-block-18">
-          <div class="gallery-9"></div>
-        </div>
-      </div>
-      <div class="gallery_section">
-        <div class="div-block-19">
-          <div class="gallery_7"></div>
-          <div class="gallery_8"></div>
-        </div>
+  <section id="gallery-2" class="section-venue-areas" aria-labelledby="venue-areas-title">
+    <div class="venue-gallery-intro">
+      <div class="venue-gallery-eyebrow"><span></span>THE SPACES<span></span></div>
+      <h2 id="venue-areas-title">Explore the Venue</h2>
+      <p>From our covered patio to welcoming indoor dining and gathering tables, discover flexible spaces for private dinners, receptions, and celebrations near Moscone Center.</p>
+    </div>
+    <div class="venue-gallery-layout">
+      <div class="venue-gallery-card"><img src="https://s3.amazonaws.com/webflow-prod-assets/6a8629859a1efc1084d6a4bf/6a910570cfb4f8cd313c59cf_Tropi_indoor_4.avif" loading="lazy" decoding="async" alt="Main dining room at Tropisueño Mexican restaurant in San Francisco"><div class="venue-gallery-overlay"><h3>Main Dining Room</h3><p>Warm interiors for group dining</p></div></div>
+      <div class="venue-gallery-right">
+        <div class="venue-gallery-card"><img src="https://s3.amazonaws.com/webflow-prod-assets/6a8629859a1efc1084d6a4bf/6a910570457b77efee2fa1f3_Tropi_indors_2.avif" loading="lazy" decoding="async" alt="Group dining area at Tropisueño"><div class="venue-gallery-overlay"><h3>Large Groups</h3><p>Receptions &amp; shared dinners</p></div></div>
+        <div class="venue-gallery-card"><img src="https://s3.amazonaws.com/webflow-prod-assets/6a8629859a1efc1084d6a4bf/6a910570e4c5d27ac793dbde_Tropi_indor_3.avif" loading="lazy" decoding="async" alt="Indoor restaurant seating at Tropisueño"><div class="venue-gallery-overlay"><h3>Indoor Dining</h3><p>Flexible seating for private events</p></div></div>
+        <div class="venue-gallery-card"><img src="https://s3.amazonaws.com/webflow-prod-assets/6a8629859a1efc1084d6a4bf/6a910570de5562391f72c36b_community_tropi.avif" loading="lazy" decoding="async" alt="Rustic communal wooden dining table at Tropisueño"><div class="venue-gallery-overlay"><h3>Community Table</h3><p>A shared place to gather</p></div></div>
+        <div class="venue-gallery-card"><img src="https://s3.amazonaws.com/webflow-prod-assets/6a8629859a1efc1084d6a4bf/6a8dfe5658094077aa555b20_IMG_0605~3.avif" loading="lazy" decoding="async" alt="Covered patio at Tropisueño for private events"><div class="venue-gallery-overlay"><h3>Patio at Night</h3><p>Atmospheric evening celebrations</p></div></div>
       </div>
     </div>
   </section>
