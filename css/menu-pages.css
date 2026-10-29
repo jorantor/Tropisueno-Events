@@ -180,3 +180,18 @@
 @media(max-width:991px){.prix-page .vegan-card-row{gap:16px}.prix-page .vegan-card{padding:22px}.prix-page .vegan-card-title{font-size:22px}}
 @media(max-width:767px){.prix-page .vegan-card-row{flex-direction:column}.prix-page .vegan-card{width:100%}.prix-page .vegan-title{font-size:34px}.prix-page .vegan-feature{gap:14px;padding:20px 18px}.prix-page .vegan-feature-symbol{font-size:40px;padding-right:15px}.prix-page .prix-cardtop{display:block}}
 @media(max-width:479px){.prix-page .vegan-title{font-size:29px}.prix-page .vegan-card{padding:20px 18px}.prix-page .vegan-feature{flex-direction:column;align-items:center;text-align:center}.prix-page .vegan-feature-symbol{padding-right:0;border-right:0}}
+
+/* Verified Webflow Prix Fixe design synchronization — 2026-10-29 */
+.prix-page .prix-section{padding-top:75px;padding-bottom:50px}
+.prix-page .prix-gallery{padding-top:0;padding-bottom:75px;background:#f6ece1}
+.prix-page .prix-gallery .prix-h2{color:#04313d}
+.prix-page .prix-drinks{padding-top:75px;padding-bottom:75px;background:transparent}
+.prix-page .prix-card,.prix-page .drink-card{background:#fff;color:#04313d;box-shadow:none;border-top-width:0}
+.prix-page .vegan-section{background:#fff}
+.prix-page .vegan-card{background:#f6ece1}
+.prix-page .vegan-card-title{font-size:25px;font-weight:400}
+.prix-page .vegan-section .eyebrow{color:#d39422;margin-bottom:0}
+.prix-page .vegan-feature{background:#04313d}
+.prix-page .vegan-feature .white-txt{color:#fff}
+@media(max-width:767px){.prix-page .vegan-card-row{flex-direction:column}.prix-page .prix-cardtop{display:block}}
+@media(max-width:479px){.prix-page .vegan-feature{align-items:center;text-align:center}}
