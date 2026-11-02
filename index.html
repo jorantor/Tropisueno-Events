@@ -630,9 +630,28 @@
       submitButton.value = 'Please wait...';
 
       try {
+        const formData = new FormData(form);
+        const fullName = String(formData.get('name') || '').replace(/\s+/g, ' ').trim();
+        const dateValue = String(formData.get('event_date') || '').replace(/\s+/g, ' ').trim();
+        const eventDate = /^\d{4}-\d{2}-\d{2}$/.test(dateValue)
+          ? new Date(`${dateValue}T12:00:00`)
+          : new Date(`${dateValue} 12:00:00`);
+        const formattedDate = Number.isNaN(eventDate.getTime())
+          ? dateValue
+          : eventDate.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
+        const startTime = String(formData.get('starting_time') || '').split(/\s*[-–—]\s*/)[0].trim();
+        const timeMatch = startTime.match(/^(\d{1,2})(?::(\d{2}))?\s*(AM|PM)?$/i);
+        let formattedTime = startTime;
+        if (timeMatch) {
+          const hour = Number(timeMatch[1]);
+          const period = timeMatch[3]?.toUpperCase() || (hour > 12 && hour < 24 ? 'PM' : hour === 0 ? 'AM' : '');
+          if (period && hour < 24) formattedTime = `${hour % 12 || 12}:${timeMatch[2] || '00'} ${period}`;
+        }
+        formData.set('subject', `${fullName}, ${formattedDate} at ${formattedTime} for ${formData.get('guest_count')} guests`);
+
         const response = await fetch(form.action, {
           method: 'POST',
-          body: new FormData(form),
+          body: formData,
           headers: { 'Accept': 'application/json' }
         });
 
