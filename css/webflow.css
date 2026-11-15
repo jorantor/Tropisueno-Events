@@ -122,13 +122,17 @@ input.w-button {
   text-align: inherit;
   text-decoration: inherit;
 }
-.w-popover {
-  position-anchor: none;
+:where(.w-popover) {
+  position-anchor: auto;
+  position-area: top;
 }
-:where(.w-popover[data-w-popover-backdrop-animated])::backdrop {
+:where(
+  .w-popover[data-w-popover-backdrop-animated],
+  .w-modal[data-w-popover-backdrop-animated]
+)::backdrop {
   animation: var(--w-backdrop-animation, none);
 }
-:where(.w-popover) {
+:where(.w-popover, .w-modal) {
   --w-backdrop-animation: initial;
 }
 .w-popover-mask {
@@ -170,6 +174,9 @@ input.w-button {
 }
 .w-modal[popover]:not(:popover-open) {
   display: none;
+}
+:where(.w-modal[data-w-modal-lock-scroll]) {
+  overscroll-behavior: contain;
 }
 html[data-w-dynpage] [data-w-cloak] {
   color: transparent !important;
